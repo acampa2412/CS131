@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{FDA4720E-8BEF-45C3-BE2C-D69CB27E8256}|Default">
   <MonoDevelop.Ide.ItemProperties.CS131Projects PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CS131Projects/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CS131Projects/My Classes/Comments.cs">
     <Files>
       <File FileName="CS131Projects/Program.cs" Line="11" Column="49" />
       <File FileName="CS131Projects/My Classes/Comments.cs" Line="20" Column="1" />
@@ -10,8 +10,9 @@
         <State name="__root__">
           <Node name="CS131Projects" expanded="True">
             <Node name="CS131Projects" expanded="True">
-              <Node name="My Classes" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="My Classes" expanded="True">
+                <Node name="Comments.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
