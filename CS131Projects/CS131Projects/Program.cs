@@ -1,4 +1,5 @@
 ﻿using System;
+using CS131Projects.DTOClasses;
 using CS131Projects.MyClasses;
 
 
@@ -8,11 +9,12 @@ namespace CS131Projects
     {
         static void Main(string[] args)
         {
-            Comments MyComment = new Comments();
-            MyComment.FirstComment = "This is my first comment";
-            
+            UsersDTO username = new UsersDTO();
+            username.userID = 2;
+            username.user = "Anthony Campa";
 
-            Console.WriteLine(MyComment.FirstComment);
+            Console.WriteLine("I am user number " + username.userID);
+            Console.WriteLine("My name is " + username.user);
         }
     }
 }
