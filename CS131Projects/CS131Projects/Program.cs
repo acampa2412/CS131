@@ -9,12 +9,19 @@ namespace CS131Projects
     {
         static void Main(string[] args)
         {
-            UsersDTO username = new UsersDTO();
-            username.userID = 2;
-            username.user = "Anthony Campa";
+            DateTime myDateTimeVariable = new DateTime(2021, 2, 28);
+            DateTime myDateTimeVariable2 = new DateTime(2021, 5, 26);
 
-            Console.WriteLine("I am user number " + username.userID);
-            Console.WriteLine("My name is " + username.user);
+            int result = DateTime.Compare(myDateTimeVariable, myDateTimeVariable2);
+
+            if (result == 1)
+            {
+                Console.WriteLine("This date comes first " + myDateTimeVariable);
+            }
+            else
+            {
+                Console.WriteLine("This date comes first " + myDateTimeVariable2);
+            }
         }
     }
 }
