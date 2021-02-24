@@ -9,19 +9,14 @@ namespace CS131Projects
     {
         static void Main(string[] args)
         {
-            DateTime myDateTimeVariable = new DateTime(2021, 2, 28);
-            DateTime myDateTimeVariable2 = new DateTime(2021, 5, 26);
-
-            int result = DateTime.Compare(myDateTimeVariable, myDateTimeVariable2);
-
-            if (result == 1)
+            int sum = 0;
+            for (int x = 1; x < 21; x++)
             {
-                Console.WriteLine("This date comes first " + myDateTimeVariable);
+                sum += x;
             }
-            else
-            {
-                Console.WriteLine("This date comes first " + myDateTimeVariable2);
-            }
+
+
+            Console.WriteLine("The sum of this loop is:" + sum);
         }
     }
 }
