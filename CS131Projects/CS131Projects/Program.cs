@@ -16,16 +16,7 @@ namespace CS131Projects
             MLBTeams.Team2 = "Los Angeles Dodgers";
             MLBTeams.Team3 = "San Diego Padres";
 
-            List<string> TeamNames = new List<string>();
-
-            TeamNames.Add(MLBTeams.Team);
-            TeamNames.Add(MLBTeams.Team2);
-            TeamNames.Add(MLBTeams.Team3);
-            foreach (var result in TeamNames)
-            {
-                Console.WriteLine(result);
-            }
-            
+            MLBTeams.MyFavoriteTeam();
 
             
         }
@@ -37,4 +28,10 @@ public class BaseballTeams<B>
     public B Team { get; set; }
     public B Team2 { get; set; }
     public B Team3 { get; set; }
+
+    public void MyFavoriteTeam()
+    {
+        Console.WriteLine("My favorite team is the " + Team);
+    }
+
 }
